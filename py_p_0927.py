@@ -32,3 +32,14 @@ for i in msg:
 
 # if we make same searching with array, it could be O(n). this is O(1)
 
+students=[
+    {"name": 'A', "science": 61, "math": 96},
+    {"name": 'B', "science": 82, "math": 36},
+    {"name": 'C', "science": 59, "math": 16},
+    {"name": 'D', "science": 93, "math": 76},
+    {"name": 'E', "science": 36, "math": 86}
+]
+print("이름", "총점", "평균", sep="\t")
+for student in students:
+    score_sum=student["science"]+student["math"]
+score_average=score_sum/len(students)
