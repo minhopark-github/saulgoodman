@@ -106,7 +106,7 @@
 
 #클래스 써서 해보고 싶다.
 import pandas as pd
-from pandas.core.indexes.base import Index #나 이거 쓴적 없는데 왜 생겨있지
+from pandas.core.indexes.base import Index #나 이거 쓴적 없는데 왜 생겨있지 index 관련 함수 쓰면 계속
 #이름을 길게 쓰면 안되는 버그가 있다. 뭐지. a b c d처럼 짧은 이름은 괜찮은데 John처럼 이름이 길어지니까 튕기네
 #self.group["name"]+=name으로 되어있었다. self.group("name")+=[name]로 하니까 되네. 이게 이름 긴거랑 상관이 있을까 애초에 list와 str로 자료형이 달라서 typeerror가 떴어야 한다. 처음처럼 쓰면 글자 하나씩 name으로 들어가더라.
 
